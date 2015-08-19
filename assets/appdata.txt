@@ -1,0 +1,2 @@
+A.P.J Abdul Kalam=A.P.J Abdul Kalam=15 Oct 1931 - 27 Jul 2015=apj.properties=apj
+Abraham Lincoln=Abraham Lincoln= =al.properties=al

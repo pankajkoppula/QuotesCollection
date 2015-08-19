@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titletextcolor">#FFFFFF</color>
+    <color name="subTitleTextColor">#727272</color>
+    <color name="listviewcolor">#FFFFFF</color>
+    <color name="listviewbordercolor">#283742</color>
+    <color name="red_A700">#e00032</color>
+    <color name="ColorPrimary">#03A9F4</color>
+    <color name="ColorPrimaryDark">#0288D1</color>
+    <color name="ColorAccent">#448AFF</color>
+    <color name="ColorTextViewBackground">#ef5350</color>
+    <color name="textViewShadow">#D5D5D5</color>
+    <color name="authorViewBackground">#E6E6E6</color>
+    <color name="textColor">#212121</color>
+    <color name="shareLabelColor">#D0D0D0</color>
+    <color name="listViewBackground">#EEEEEE</color>
+    <color name="dividerColor">#B6B6B6</color>
+    <color name="text_shadow">#7F000000</color>
+</resources>

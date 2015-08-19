@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quotes Collection</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_rate_me">Rate Me</string>
+    <string name="menu_other_apps">Other Apps</string>
+    <string name="menu_home_button">Home Button</string>
+	<string name="img_view_cd">desc</string>
+	<string name="txt_view_1"/>
+	<string name="txt_view_2"/>
+	<string name="title_activity_author">Author</string>
+	<string name="action_share">Share with</string>
+	<string name="exit_msg">Do you want to exit from app?</string>
+	<string name="loading">Loading..</string>
+	<string name="ads_string">Above is the Ad Banner which is returned by Admob!</string>
+	<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+	<string name="shareLabel">Share : </string>
+	<string name="info">Info</string>
+	<string name="description_zoom_touch_close">close</string>
+	
+	
+	<string name="leftQuote"><![CDATA[ &ldquo;]]></string>
+	<string name="rightQuote"><![CDATA[ &rdquo;]]></string>
+
+</resources>

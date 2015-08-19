@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:layout_marginEnd="30dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:id="@+id/shareLayout" 
+    tools:context=".AuthorListActivity">
+
+    <TextView
+        android:id="@+id/shareLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/shareLabel"
+        android:layout_marginRight="5dp"
+		android:layout_marginBottom="2dp"
+      	android:typeface="sans"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:textColor="@color/shareLabelColor" />
+    
+    <ImageView
+		android:id="@+id/fb"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="2dp"
+		android:scaleType="centerCrop"
+		android:padding="2dp"
+		android:contentDescription="@string/app_name"
+		android:src="@drawable/fb_grey" 
+		android:clickable="true"
+		android:onClick="clickFunc"/>	
+
+  	<ImageView
+		android:id="@+id/whatsapp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="2dp"
+		android:scaleType="centerCrop"
+		android:padding="2dp"
+		android:contentDescription="@string/app_name"
+		android:src="@drawable/wtsapp_grey" 
+		android:clickable="true"
+		android:onClick="clickFunc"/>	
+    
+        		
+    <ImageView
+		android:id="@+id/sms"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="2dp"
+		android:scaleType="centerCrop"
+		android:padding="2dp"
+		android:background="@android:color/transparent"
+		android:contentDescription="@string/app_name"
+		android:src="@drawable/hangouts_grey" 
+		android:clickable="true"
+		android:onClick="clickFunc"/>	
+		
+    <ImageView
+		android:id="@+id/googleplus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="2dp"
+		android:scaleType="centerCrop"
+		android:padding="2dp"
+		android:contentDescription="@string/app_name"
+		android:src="@drawable/twitter_grey" 
+		android:clickable="true"
+		android:onClick="clickFunc"/>	
+    
+</LinearLayout>

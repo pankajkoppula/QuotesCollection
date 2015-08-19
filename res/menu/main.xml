@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.jaaps.quotes.MainActivity" >
+    
+    <item
+        android:id="@+id/menu_rate_me"
+        android:orderInCategory="100"
+        android:title="@string/menu_rate_me"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_other_apps"
+        android:orderInCategory="100"
+        android:title="@string/menu_other_apps"
+        app:showAsAction="never"/>
+</menu>

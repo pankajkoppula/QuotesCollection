@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authorInfoView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="org.jaaps.quotes.AuthorInfoActivity" 
+    android:orientation="vertical">
+	
+	<include
+        layout="@layout/tool_bar"/>
+	
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+</LinearLayout>

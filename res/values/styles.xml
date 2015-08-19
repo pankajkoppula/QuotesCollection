@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+ 
+   	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+ 
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorAccent</item>
+        <!-- Customize your theme here. -->
+        <item name="actionOverflowMenuStyle">@style/OptionsMenu</item>
+    </style>    
+    
+   	<!-- OverFlow menu Styles -->
+   	<style name="OptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+     	<item name="android:popupBackground">@color/ColorPrimary</item>
+	</style>
+	
+</resources>

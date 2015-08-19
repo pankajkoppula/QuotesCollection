@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="org.jaaps.quotes.MainActivity" 
+    android:orientation="vertical">
+	<LinearLayout 
+			android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1.0">	    
+	    
+		    <include
+		        layout="@layout/tool_bar"/>
+		    
+		    <ListView
+		       	android:id="@+id/listV"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:listSelector="@drawable/list_selector"
+		        android:smoothScrollbar="true"
+		        android:fastScrollEnabled="true"
+		        android:scrollingCache="false"
+		        android:persistentDrawingCache="scrolling"
+		        android:background="@color/listviewcolor"
+		        android:animationCache="false" 
+		        android:dividerHeight="1dp"
+		        android:divider="@android:color/darker_gray"
+		        android:soundEffectsEnabled="true">
+		    </ListView>
+	</LinearLayout>
+
+   	<!-- View
+   	    	android:id="@+id/adDivider"
+		    android:layout_width="match_parent"
+		    android:layout_height="2dp"
+		    android:background="#CCCCCC"
+		    android:visibility="invisible"/-->
+
+   	 <include
+	        layout="@layout/ad_banner"/>
+   	 
+</LinearLayout>

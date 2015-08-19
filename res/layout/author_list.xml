@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/authorMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    tools:context=".AuthorListActivity">
+    
+    <include layout="@layout/tool_bar"/>
+    
+    <ScrollView 
+		  android:id="@+id/scrollview"
+		  android:layout_width="fill_parent"
+		  android:layout_height="0dp"
+		  android:layout_weight="1.0" >
+		 
+  	</ScrollView>
+    
+    <include layout="@layout/ad_banner"/>
+
+</LinearLayout>
